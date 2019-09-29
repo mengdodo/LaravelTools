@@ -10,7 +10,7 @@ class RepositoryCommand extends CustomCommand
      *
      * @var string
      */
-    protected $name = 'make:repository';
+    protected $name = 'make:repo';
 
     /**
      * The console command description.

@@ -1,24 +1,23 @@
 {
     "name": "mengdodo/laravel-tools",
-    "description": "laravel develop tools",
-    "keywords": [
-        "laravel","develop tools","laravel-tools"
-    ],
+    "description": "laravel develop tools. Create service,trait,Repositories,Presenters quickly",
+    "keywords": ["laravel","develop tools","laravel-tools"],
     "type": "library",
     "license": "MIT",
+    "homepage": "https://mengdodo.com",
     "authors": [
         {
             "name": "mengdodo",
             "email": "dodo@mengdodo.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
-        "php": ">=7.1"
+        "php": ">=7.0",
+        "laravel/framework": "^5.5"
     },
     "autoload": {
         "psr-4": {
-            "Mengdodo\\LaravelTools": "src/"
+            "Mengdodo\\LaravelTools\\": "src"
         }
     },
     "autoload-dev": {

@@ -39,7 +39,10 @@ class CustomCommand extends GeneratorCommand
         // written. Then, we will build the class and make the proper replacements on the
         // stub files so that it gets the correctly formatted namespace and class name.
         $this->makeDirectory($path);
-        $this->files->put($path, $this->sortImports($this->buildClass($name)));
+        substr(app()->version(),0,1) == 5
+            ? $this->files->put($path, $this->buildClass($name))
+            : $this->files->put($path, $this->sortImports($this->buildClass($name)));
+        ;
         $this->info($this->type.' created successfully.');
     }
 }
