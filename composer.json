@@ -1,0 +1,37 @@
+{
+    "name": "mengdodo/laravel-tools",
+    "description": "laravel develop tools",
+    "keywords": [
+        "laravel","develop tools","laravel-tools"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mengdodo",
+            "email": "dodo@mengdodo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mengdodo\\LaravelTools": "src/"
+        }
+    },
+    "autoload-dev": {
+
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mengdodo\\LaravelTools\\LaravelToolsServiceProvider"
+            ],
+            "aliases": {
+                "LaravelToolsFacade": "Mengdodo\\LaravelTools\\Facade\\LaravelToolsFacade"
+            }
+        }
+    }
+}
