@@ -1,6 +1,6 @@
 {
     "name": "mengdodo/laravel-tools",
-    "description": "laravel develop tools. Create service,trait,Repositories,Presenters quickly",
+    "description": "laravel develop tools. Create service,trait,Repositories,Presenters quickly, support ^5.5 and 6",
     "keywords": ["laravel","develop tools","laravel-tools"],
     "type": "library",
     "license": "MIT",
@@ -13,7 +13,7 @@
     ],
     "require": {
         "php": ">=7.0",
-        "laravel/framework": "^5.5|^6"
+        "laravel/framework": "^5|^6"
     },
     "autoload": {
         "psr-4": {
