@@ -1,6 +1,6 @@
 # laravelTools
 
-## simple artisan extend package for laravel
+simple artisan extend package for laravel,Create service,trait,Repositories,Presenters quickly
 
 ## Directory Structure
 ![laravel path](./dst/WechatIMG6.jpeg)
@@ -9,7 +9,7 @@
 ```$xslt
 php>7.0
 
-laravel>5&6
+laravel>5.5
 ```
 
 ## install
