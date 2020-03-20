@@ -1,6 +1,6 @@
 <?php
 
-namespace Mengdodo\LaravelTools\Console\Commands;
+namespace Mengdodo\LaravelTools\Console\Command;
 
 
 class TraitCommand extends CustomCommand

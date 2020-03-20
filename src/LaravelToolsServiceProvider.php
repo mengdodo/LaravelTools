@@ -3,10 +3,10 @@
 namespace Mengdodo\LaravelTools;
 
 use Illuminate\Support\ServiceProvider;
-use Mengdodo\LaravelTools\Console\Commands\PresenterCommand;
-use Mengdodo\LaravelTools\Console\Commands\RepositoryCommand;
-use Mengdodo\LaravelTools\Console\Commands\ServiceCommand;
-use Mengdodo\LaravelTools\Console\Commands\TraitCommand;
+use Mengdodo\LaravelTools\Console\Command\PresenterCommand;
+use Mengdodo\LaravelTools\Console\Command\RepositoryCommand;
+use Mengdodo\LaravelTools\Console\Command\ServiceCommand;
+use Mengdodo\LaravelTools\Console\Command\TraitCommand;
 use Mengdodo\LaravelTools\Library\LaravelTools;
 
 class LaravelToolsServiceProvider extends ServiceProvider
