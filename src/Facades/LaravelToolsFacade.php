@@ -1,6 +1,6 @@
 <?php
 
-namespace Mengdodo\LaravelTools\Facade;
+namespace Mengdodo\LaravelTools\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
