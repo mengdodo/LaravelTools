@@ -1,6 +1,7 @@
 # laravelTools
 
 simple artisan extend package for laravel,Create service,trait,Repositories,Presenters quickly
+
 Laravel artisan 终端命令增强工具，增加了 Service、Trait、Repositories、Presenters 模版文件生成命令，支持Laravel9。
 
 ## Directory Structure
