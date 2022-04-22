@@ -1,15 +1,16 @@
 # laravelTools
 
 simple artisan extend package for laravel,Create service,trait,Repositories,Presenters quickly
+Laravel artisan 终端命令增强工具，增加了 Service、Trait、Repositories、Presenters 模版文件生成命令，支持Laravel9。
 
 ## Directory Structure
 ![laravel path](./dst/WechatIMG6.jpeg)
 
 ## require
 ```$xslt
-php>7.0
+php>7.0 || php>9.0
 
-laravel>5.5
+laravel>5.5 || laravel>9.5
 ```
 
 ## install
