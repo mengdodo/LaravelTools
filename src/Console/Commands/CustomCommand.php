@@ -11,7 +11,7 @@ class CustomCommand extends GeneratorCommand
      * @return string|void
      */
     protected function getStub(){
-        parent::getStub();
+
     }
 
     /**
